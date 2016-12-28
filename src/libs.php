@@ -1,10 +1,15 @@
 <?php 
 
-namespace ANS\src\;
+namespace ANS\src;
 
-function hola()
+class libs
 {
-	return "hola...";	
+	public function hola()
+	{
+		return "hola...";	
+	}	
 }
+
+
 
 

@@ -4,5 +4,7 @@ require dirname(__DIR__).'/d8/vendor/autoload.php';
 
 use \ANS\src\libs;
 
-echo "esto es una ".hola()."...";
+$mensaje = new libs();
+
+echo "esto es una ".$mensaje->hola()."...";
 
