@@ -1,10 +1,10 @@
 <?php
 
-require dirname(__DIR__).'/d8/vendor/autoload.php';
+require dirname(__DIR__).'/prueba/vendor/autoload.php';
 
 use \ANS\src\libs;
 
 $mensaje = new libs();
 
-echo "esto es una ".$mensaje->hola()."...";
+echo "esto es una prueba ".$mensaje->hola()."...";
 
