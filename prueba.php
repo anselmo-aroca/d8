@@ -6,5 +6,5 @@ use \ANS\src\libs;
 
 $mensaje = new libs();
 
-echo "esto es una ".$mensaje->hola()."...";
+echo "esto es una ".$mensaje->hola()." 2...";
 
