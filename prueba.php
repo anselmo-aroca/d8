@@ -6,5 +6,6 @@ use \ANS\src\libs;
 
 $mensaje = new libs();
 
+echo $mensaje->hola();
 
 
