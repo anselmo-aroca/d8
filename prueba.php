@@ -8,4 +8,4 @@ $mensaje = new libs();
 
 echo $mensaje->hola();
 
-
+echo $mensaje->hola();
